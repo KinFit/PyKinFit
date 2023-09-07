@@ -1,0 +1,12 @@
+name: kinematic_fitter_env
+channels:
+  - defaults
+  - pytorch
+  - conda-forge 
+dependencies:
+  - python=3.11  # or your desired Python version
+  - numpy
+  - tqdm
+  - pytorch
+  - cpuonly
+  - root

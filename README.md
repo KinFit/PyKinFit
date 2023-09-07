@@ -1,4 +1,4 @@
-# Kinematic Fitting Algorithm in Python
+# Python Implementation of the KinFit library  
 
 ## Introduction
 
@@ -48,14 +48,12 @@ The algorithm iteratively updates the parameters $\eta$ and $\xi$ to minimize $\
 To be able to use the kinematic fitting algorithm, you need to clone the repository and install some dependencies.   
 
 ### Using conda  
-To install the dependencies using conda, you can create a new environment and install the packages listed in the requirements.txt file:  
+To install the dependencies using conda, you can create a new environment and install the packages listed in the `environment.yml` file:  
 ```shell script
-# Create a new conda environment
-conda create --name kinematic_fitter_env python=3.x
+# Create a new conda environment and install PyTorch
+conda env create -f environment.yml
+# Activate the enviroment
 conda activate kinematic_fitter_env
-
-# Install dependencies from requirements.txt
-conda install --file requirements.txt
 ```
 
 ## Usage
